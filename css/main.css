@@ -8,6 +8,34 @@
 }
 
 @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
         url('../fonts/OpenSans-SemiBold.woff') format('woff');
@@ -612,6 +640,7 @@ img {
 .register {
     display: flex;
     gap: 16px;
+    padding-bottom: 18px;
     
 }
 
@@ -619,11 +648,26 @@ img {
     caret-color: #2F281E;
     padding: 10px 0 10px 20px;
     outline: none;
-    border: 0;
+    border: 1px solid transparent;
     width: 280.29px;
     background: #FFFFFF;
     border-radius: 5px;
     
+}
+
+.register input:hover {
+    background: #FFF0F0;
+    border: 1px solid #F03E3D;
+    border-radius: 5px;
+}
+
+.register input:hover::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F03E3D;
 }
 
 .register input:focus {
@@ -643,10 +687,10 @@ img {
 }
 
 textarea {
-    margin-top: 18px;
+    /* margin-top: 18px; */
     caret-color: #C6C6C6;
     outline: none;
-    border: 0;
+    border: 1px solid transparent;
     background: #FFFFFF;
     border-radius: 5px;
     padding: 9px 0 0 21px;
