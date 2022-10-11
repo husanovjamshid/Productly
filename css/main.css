@@ -81,6 +81,9 @@ img {
 }
 
 
+
+/* HEADER SECTION START*/
+
 .header-inner {
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -158,6 +161,12 @@ img {
     text-decoration: none;
     padding: 7px 14px;
 }
+
+/* HEADER SECTION END*/
+
+
+
+/* MAIN SECTION START */
 
 .heading-wrap {
     padding: 59px 0;
@@ -733,6 +742,11 @@ textarea:focus {
     color: #FFFFFF;
 }
 
+/* MAIN SECTION START */
+
+
+
+/* FOOTER SECTION START */
 
 .footer-wrap {
     padding: 61px 0 72px 0;
@@ -773,3 +787,5 @@ textarea:focus {
 .footer-link:hover {
     color: #FF9900;
 }
+
+/* FOOTER SECTION START */
