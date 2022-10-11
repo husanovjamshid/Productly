@@ -7,6 +7,8 @@
     background: linear-gradient(45deg, #e22dd3, #d800e0);    border-radius: 4px;
 }
 
+
+/************* FONTS  ************/
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
@@ -82,7 +84,7 @@ img {
 
 
 
-/* HEADER SECTION START*/
+/****** HEADER CONTENT START ******/
 
 .header-inner {
     background: #FFFFFF;
@@ -162,12 +164,13 @@ img {
     padding: 7px 14px;
 }
 
-/* HEADER SECTION END*/
+/*******  HEADER CONTENT END *******/
 
 
 
-/* MAIN SECTION START */
+/*******  MAIN CONTENT START *******/
 
+/*******  Hero Section Start *******/
 .heading-wrap {
     padding: 59px 0;
     display: flex;
@@ -241,7 +244,11 @@ img {
 .watch-video:hover {
     text-decoration: underline;
 }
+/******** Hero Section end ********/
 
+
+
+/******** Service Section Start ********/
 .services {
     padding: 50px 0;
 }
@@ -274,6 +281,7 @@ img {
     z-index: -1;
     bottom: -90px;
 }
+
 .service-list {
     display: flex;
     align-items: center;
@@ -325,7 +333,11 @@ img {
     color: #FFFFFF;
     text-decoration: none;
 }
+/******** Service Section end ********/
 
+
+
+/******** Strategy Section Start  ********/
 .strategy {
     padding: 90px 0;
 }
@@ -396,15 +408,13 @@ img {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.str-item:hover 
-{
+.str-item:hover {
     background: #FFFFFF;
     cursor: pointer;
     box-shadow: none;
 }
 
-.str-item:hover .str-title
-{
+.str-item:hover .str-title{
     color: #FF9900;
 }
 
@@ -434,7 +444,6 @@ img {
 
 .cat-str-link {
     background: #F5F5F5;
-    /* border: 1px solid #D7D7D7; */
     border-radius: 90px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -492,7 +501,11 @@ img {
 {
     color: #FF9900;
 }
+/******** Strategy Section End  ********/
 
+
+
+/******** About Section Start  ********/
 .about-us {
     padding: 6px 0 101px 0;
 }
@@ -572,9 +585,11 @@ img {
     bottom: 23px;
     top: 34px;
 }
+/******** About Section End  ********/
 
 
 
+/******** Contact Section Start  ********/
 .contact {
     background: #FFEEE1;
 }
@@ -696,7 +711,6 @@ img {
 }
 
 textarea {
-    /* margin-top: 18px; */
     caret-color: #C6C6C6;
     outline: none;
     border: 1px solid transparent;
@@ -741,12 +755,12 @@ textarea:focus {
     text-align: center;
     color: #FFFFFF;
 }
+/******** Contact Section End  ********/
+/******** MAIN CONTENT END ********/
 
-/* MAIN SECTION START */
 
 
-
-/* FOOTER SECTION START */
+/******** FOOTER CONTENT START ********/
 
 .footer-wrap {
     padding: 61px 0 72px 0;
@@ -788,4 +802,4 @@ textarea:focus {
     color: #FF9900;
 }
 
-/* FOOTER SECTION START */
+/******** FOOTER CONTENT END ********/
