@@ -1,3 +1,12 @@
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, #e22dd3, #d800e0);    border-radius: 4px;
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
@@ -179,4 +188,142 @@ img {
     line-height: 24px;
     text-decoration-line: underline;
     color: #FF9900;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.our-title {
+    display: block;
+    margin: 0 auto;
+    width: 462px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #2F281E;
+    padding-bottom: 70px;
+}
+
+.service-content {
+    position: relative;
+}
+
+.service-img {
+    width: 1197px;
+    height: 277px;
+    background-image: url("../images/service-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    bottom: -90px;
+}
+.service-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.service-item {
+    width: 263px;
+}
+
+.service-title {
+    padding: 30px 0 16px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F281E;
+    margin: 0;
+}
+
+.service-desc {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.service-btn {
+    padding: 13px 30px;
+    display: block;
+    width: 171px;
+    margin: 0 auto;
+    background: #FF7549;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.strategy {
+    padding: 90px 0;
+}
+
+.strategy-title {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #2F281E;
+}
+
+.join-people {
+    padding: 14px 0 24px 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.cat-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cat-link {
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #544837;
+}
+
+.cat-active {
+    border: 0;
+    background: #FF9900;
+    color: #fff;
 }
