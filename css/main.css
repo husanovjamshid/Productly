@@ -405,3 +405,85 @@ img {
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
+
+
+
+.about-us {
+    padding: 6px 0 101px 0;
+}
+.about-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #2F281E;
+    margin: 0;
+}
+
+.about-desc {
+    padding: 14px 0 45px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin: 0;
+}
+
+.about-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-item {
+    position: relative;
+    padding: 36px 0 34px 35px;
+    width: 345px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin: 0;
+}
+
+.job {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #544837;
+    margin: 0;
+}
+
+.email-add {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1943EF;
+    margin: 0;
+}
+
+.about-avatar {
+    position: absolute;
+    right: -35px;
+    bottom: 23px;
+    top: 34px;
+}
